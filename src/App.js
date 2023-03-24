@@ -1,10 +1,11 @@
+import Main from './components/main.component';
 
 function App() {
-  return (
-    <div className="App">
-    BOOOO!
-    </div>
-  );
+  return(
+    <Main />
+  )
+
+
 }
 
 export default App;
