@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Images from "./images.component";
 import { Link, useLocation} from "react-router-dom";
+import Nav from "./nav.component";
 
 
 const Shop = () => {
@@ -13,7 +14,7 @@ const [images, setImages] = useState(Images);
 
   return (
     <div className="App">
-
+    <Nav />
     {
       images.map((image) => {
         return(
