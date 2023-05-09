@@ -24,6 +24,7 @@ const RouteSwitch = () => {
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/complete" element={<Complete />} />
         <Route path="/shop/:id" element={<Product/>} />
+
       </Routes>
     </BrowserRouter>
   );
