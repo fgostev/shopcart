@@ -12,6 +12,7 @@ const location = useLocation()
 const [items, setItems] = useState([]);
 const [images, setImages] = useState(Images);
 
+
   return (
     <div className="App">
     <Nav />
