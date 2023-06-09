@@ -9,7 +9,6 @@ const Shop = () => {
 const location = useLocation()
 {console.log(location)}
 
-const [items, setItems] = useState([]);
 const [images, setImages] = useState(Images);
 
 

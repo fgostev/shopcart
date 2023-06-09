@@ -3,11 +3,14 @@ Shopping cart project made with react.
 Live @https://fgostev.github.io/shopcart
 
 
-<!-- Things to do:
-pt1:
-    -need to add back button on each item
-    -need to add add to the basket button, that adds item to the state. 
-pt2:
-    -need to create a state with all the items added to it
-    -use it to display a basket
+<!-- 
+Things for the day:
+-Add bad for more than one item
+-Create logic:
+ add unique id key for all objects
+   if item is in the basket, add a number of the same item
+
+-Create logic:
+  State for all summ of items,
+  make it adjustable dependable of adding and removing objects
  -->
