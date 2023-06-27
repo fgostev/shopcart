@@ -2,7 +2,7 @@ import { useState } from "react";
 import Images from "./images.component";
 import { Link, useLocation} from "react-router-dom";
 import Nav from "./nav.component";
-
+import "../styles/shop.css"
 
 const Shop = () => {
 
