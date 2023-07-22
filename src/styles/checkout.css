@@ -1,0 +1,63 @@
+.checkoutContainer{
+
+      display: flex;
+      flex-wrap: wrap;
+      /* justify-content: space-between; */
+      gap: 15px;
+      text-align: center;
+      margin-right: 2%;
+      margin-left: 2%;
+      margin-top: 5%;
+    }
+
+    .btnContainer{
+        display: flex;
+        padding-bottom: 20px;
+        flex-direction: row-reverse;
+        gap: 10px
+    }
+    
+    .checkoutImage{
+        width: 175px;
+    }
+
+    .plusBtn, .minusBtn{
+        width: 20px;
+        border: none;
+        color: #fff; 
+        background-color: black;
+        outline: none;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+
+    .deleteBtn{
+        margin-top: 10px;
+        padding: 0.4em 2em; 
+        font-size: 1.1rem;
+        font-weight: 700;
+        border: none;
+        color: #fff; 
+        background-color: black;
+        outline: none;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+
+.total{
+    float: right;
+    margin-right: 20px;
+}
+
+#amountItems{
+    padding: 5px;
+}
+
+    @media screen and (max-width: 586px) { /* Specific to this particular image */
+        .checkoutContainer{
+            justify-content: center;
+            gap: 15px;
+        }
+    }

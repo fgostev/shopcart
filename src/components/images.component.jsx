@@ -38,7 +38,7 @@ const Images = () =>{
             alt: "a pug with a blue costume",
             price: "10.99",
             id: uniqid(),
-            amount: 0
+            amount: 1
         },
         {
             src: dog4,
@@ -46,7 +46,7 @@ const Images = () =>{
             alt: "red jacket brown dog",
             price: "22.90",
             id: uniqid(),
-            amount: 0
+            amount: 1
         },
         {
             src: dog5,
@@ -54,7 +54,7 @@ const Images = () =>{
             alt: "small dog woof overall",
             price: "18.99",
             id: uniqid(),
-            amount: 0
+            amount: 1
         },
         {
             src: dog6,
@@ -62,7 +62,7 @@ const Images = () =>{
             alt: "small dog hip-hop style suite with a chain",
             price: "42.25",
             id: uniqid(),
-            amount: 0
+            amount: 1
         },
         {
             src: dog7,
@@ -70,7 +70,7 @@ const Images = () =>{
             alt: "small dog ghost halloween costume",
             price: "10.99",
             id: uniqid(),
-            amount: 0
+            amount: 1
         },
         {
             src: dog8,
@@ -78,7 +78,7 @@ const Images = () =>{
             alt: "dog lil man costume",
             price: "12",
             id: uniqid(),
-            amount: 0
+            amount: 1
         },
         {
             src: dog9,

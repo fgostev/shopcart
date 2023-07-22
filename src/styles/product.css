@@ -1,0 +1,31 @@
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 25px;
+}
+
+.btnContainer{
+    display: flex;
+    padding-bottom: 20px;
+    flex-direction: row-reverse;
+    gap: 10px
+}
+
+.addItem, .goBack{
+    padding: 0.4em 2em; 
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: none;
+    color: #fff; 
+    background-color: black;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.addItem:hover,.goBack:hover{
+    background-color: rgba(0, 0, 0, 0.711);
+}
