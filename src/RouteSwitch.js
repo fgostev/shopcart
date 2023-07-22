@@ -18,9 +18,7 @@ const RouteSwitch = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/shop" element={<Shop />} />
-        {/* make item dynamic */}
-        {/* <Route path="/shop/item" element={<Item />} /> */}
+        <Route path="/shop" element={<Shop cart={cart} />} />
         <Route path="/checkout" element={<Checkout cart={cart} setCart={setCart} count={count} setCount={setCount}/>} />
         <Route path="/complete" element={<Complete />} />
         <Route path="/shop/:id" element={<Product cart ={cart} setCart={setCart}/>} />

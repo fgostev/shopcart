@@ -1,6 +1,7 @@
 import { useParams, useLocation } from 'react-router-dom'
 import Nav from './nav.component';
 import { useNavigate } from 'react-router-dom';
+import "../styles/product.css"
 
 
 
@@ -11,20 +12,6 @@ const Product = ({cart, setCart}) => {
     const navigate = useNavigate();
 
 
-
-// check the bug of adding the item once again ater a while
-
-// const addItemHandler = () => {
-//     let basket = [...cart];
-
-//     if(!basket.includes(productObject)){
-//         basket.push(productObject);
-//     }else{
-//         productObject.amount += 1;
-// }
-// // console.log(productObject.name);
-//         setCart(basket);
-// }
 
 const addItemHandler = () => {
     let basket = [...cart];
@@ -52,12 +39,15 @@ const goBackHandler = () => {
 
     return(
      <div className='productContainer'>
-        <Nav />
+        <Nav cart = {cart} />
         <div className='product'>
-            <p>  product {id}   </p>
-            <img src={productObject.src} width="200px" alt={id}></img>
-            <button className='addItem' onClick={addItemHandler} name={id}>add</button>
-            <button className='goBack' onClick={goBackHandler}>back shop</button>
+            <img src={productObject.src} width="200px" alt={id} className='productImg'></img>
+            <p className='productDescription'>  {id}   </p>
+            <p className='productPrice'>{productObject.price}</p>
+            <div className='btnContainer'>
+            <button className='addItem' onClick={addItemHandler} name={id}>ADD TO CART</button>
+            <button className='goBack' onClick={goBackHandler}> BACK </button>
+            </div>
         </div>
      </div>
     )
